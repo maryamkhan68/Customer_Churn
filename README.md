@@ -63,9 +63,8 @@ Customer_Churn/
 ├── notebook/
 │   └── Task_03_ML.ipynb
 │
-├── report/
-│   └── Task_03_ML.pdf
-│
+├
+│── Task_03_ML.pdf
 ├── app.py
 ├── best_churn_model.joblib
 ├── scaler.joblib
