@@ -149,7 +149,7 @@ This model was selected and deployed in the Streamlit application.
 The trained model, scaler, and feature columns were saved using:
 
 ```python
-joblib.dump(best_model, "best_churn_model.joblib")
+joblib.dump(rf_best, "best_churn_model.joblib")
 joblib.dump(scaler, "scaler.joblib")
 joblib.dump(list(X_train.columns), "model_columns.joblib")
 ```
